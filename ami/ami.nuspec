@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>ami</id>
+    <title>ami (Install)</title>
+    <version>0.2.19</version>
+    <authors>Peter Murray-Rust</authors>
+    <owners>tarrow</owners>
+    <summary>Scholarly Textminer</summary>
+    <description>Ami is a scholarly textminer written in java 
+    </description>
+    <projectUrl>https://github.com/ContentMine/ami</projectUrl>
+    <packageSourceUrl>https://github.com/ContentMine/ami/releases/download/v0.2.19-beta/ami-v0.2.19-beta.zip</packageSourceUrl>
+    <!--<projectSourceUrl></projectSourceUrl>
+    <docsUrl></docsUrl>
+    <mailingListUrl></mailingListUrl>
+    <bugTrackerUrl></bugTrackerUrl>-->
+    <tags>ami</tags>
+    <copyright></copyright>
+    <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
